@@ -9,16 +9,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa247f99-f0ea-4fe1-8957-8487f9ffc1ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/p/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p/consumer-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p/src/androidTest/java/com/example/p/ExampleInstrumentedTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p/src/main/java/com/example/p/MyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p/src/test/java/com/example/p/ExampleUnitTest.kt" afterDir="false" />
-    </list>
+    <list default="true" id="fa247f99-f0ea-4fe1-8957-8487f9ffc1ff" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
