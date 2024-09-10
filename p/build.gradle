@@ -8,7 +8,7 @@ android {
 
     defaultConfig {
         minSdk 21
-        targetSdk 32
+        targetSdk 33
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
@@ -37,4 +37,20 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+}
+afterEvaluate {
+    publishing {
+        publications {
+            // Creates a Maven publication called "release".
+            release(MavenPublication) {
+                from components.release
+                //建议和github地址对应，否则对jitpack无效
+                groupId = 'com.github.lankongmoxing'
+                //建议和github仓库名称对应，否则对jitpack无效
+                artifactId = 'uniappx-plugin-test'
+                //建议和com.github.494739635release的tag相同，否则对jitpack无效
+                version = '0.0.1'
+            }
+        }
+    }
 }
